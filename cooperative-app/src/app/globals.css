@@ -1,11 +1,7 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  html {
-    font-family: 'Inter', system-ui, sans-serif;
-  }
+@theme {
+  --font-family-sans: 'Inter', system-ui, sans-serif;
 }
 
 @layer components {
